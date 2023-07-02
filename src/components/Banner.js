@@ -90,7 +90,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[525px] mix-blend-lighten"
           >
-            <img src={profile} />
+            <img src={profile} alt="profilepicture"/>
           </motion.div>
         </div>
       </div>

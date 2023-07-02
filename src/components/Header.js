@@ -17,9 +17,9 @@ const Header = () => {
     <header className=" py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <a href="#" className="logo">
+          <div className="logo">
             ANN SOLOMON
-          </a>
+          </div>
           <button
             className="btn btn-sm"
             onClick={() => {
